@@ -1,0 +1,52 @@
+body {
+    background-color: cyan;
+    display: grid;
+    width: 98%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+  /*  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
+    gap: 6px;
+    text-align: center;
+  }
+
+  header{
+    font-size: 100px;
+    color:red;
+  
+  }
+
+  #tabla {
+    grid-column-start: 1 ;
+    grid-column-end: 1 ;
+    grid-row-start: 1 ;
+    grid-row-end:1 ;
+    background-color: rgb(178, 243, 56);
+    padding-top: 30px;
+    border: .1rem dotted black;
+    padding: 0.5rem;
+    margin-bottom: 00.5rem;
+    text-align: auto;
+    
+   }
+
+   #factorial {
+    grid-column-start: 3;
+    grid-column-end : 4 ;
+    grid-row-start: 1;
+    grid-row-end:2;
+    background-color: rgb(178, 243, 56);
+    padding-top: 30px;
+/*     font-size: 20px;*/
+    border: .1rem dotted black;
+    padding: 0.5rem;
+    margin-bottom: 00.5rem;
+    text-align: auto;
+   }
+
+   .p{
+    margin-right: 30px;
+      text-align: right;
+
+   }
+
+  
